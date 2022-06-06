@@ -1,6 +1,6 @@
 {
   "name": "@gaia-family/graphql-codegen-zod",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "description": "Its a library to parse from Graphql Schema to a Zod Schema",
   "scripts": {
     "test": "rm -rf dist/ && tsc && graphql-codegen",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/withshepherd/graphql-codegen-zod"
+    "url": "https://github.com/gaia-family/graphql-codegen-zod"
   },
   "keywords": [],
   "author": "withshepherd",
@@ -33,6 +33,7 @@
     "zod": ">=3"
   },
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/**/*.{js,ts}"
   ]
